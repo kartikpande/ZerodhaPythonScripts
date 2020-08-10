@@ -1,3 +1,6 @@
+import pandas as pd 
+import os,sys
+
 foldername = pd.Timestamp.today().strftime('%Y%m%d')
 path = 'C:\\db\\options\\{}'.format(foldername)
 try:
